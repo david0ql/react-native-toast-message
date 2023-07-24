@@ -1,13 +1,11 @@
 import { StyleSheet } from 'react-native';
 
-export const HEIGHT = 60;
 export const WIDTH = 340;
 export const BORDER_RADIUS = 6;
 
 export const styles = StyleSheet.create({
   base: {
     flexDirection: 'row',
-    height: HEIGHT,
     width: WIDTH,
     borderRadius: BORDER_RADIUS,
     shadowOffset: { width: 0, height: 0 },
@@ -22,6 +20,7 @@ export const styles = StyleSheet.create({
   },
   contentContainer: {
     paddingHorizontal: 25,
+    marginVertical: 5,
     flex: 1,
     justifyContent: 'center',
     alignItems: 'flex-start' // In case of RTL, the text will start from the right
