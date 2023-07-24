@@ -41,6 +41,7 @@ export function BaseToast({
             testID={getTestId('Text1')}
             style={[styles.text1, text1Style]}
             numberOfLines={text1NumberOfLines}
+            adjustsFontSizeToFit
             ellipsizeMode='tail'
             {...text1Props}>
             {text1}
@@ -50,7 +51,6 @@ export function BaseToast({
           <Text
             testID={getTestId('Text2')}
             style={[styles.text2, text2Style]}
-            numberOfLines={text2NumberOfLines}
             ellipsizeMode='tail'
             {...text2Props}>
             {text2}
