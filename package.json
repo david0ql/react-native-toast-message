@@ -1,7 +1,7 @@
 {
-  "name": "react-native-toast-message",
-  "version": "2.1.6",
-  "description": "Toast message component for React Native",
+  "name": "@david0ql/react-native-toast-message",
+  "version": "2.1.7",
+  "description": "Toast message component for React Native with dynamic height size and auto hide after a few seconds.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "files": [
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/calintamas/react-native-toast-message.git"
+    "url": "git+https://github.com/david0ql/react-native-toast-message.git"
   },
   "keywords": [
     "react-native",
